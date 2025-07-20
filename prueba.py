@@ -7,7 +7,7 @@ form_values = {
 "name": None,
 "height": None,
 "dob": None,
-#"feedback": None,
+"feedback": None,
 "time": None,
 "choice": None,
 "gender": None,
