@@ -32,8 +32,8 @@ with st.form(key='user_info_form'):
     
     form_values["slider_value"] = st.select_slider("Choose a number from 1 to 10?", options=[1,2,3,4,5,6,7,8,9,10])
     #Toggles and checkboxes
-    form_values["notifications"] = st.checkbox("Receive notifications?")
-    form_values["toggle_value"] = st.checkbox("Enable dark mode?", value=False)
+    
+    form_values["toggle_value"] = st.checkbox("I have read all the terms and conditions", value=False)
 
     submit_button = st.form_submit_button()
     if submit_button:
