@@ -7,12 +7,12 @@ form_values = {
 "name": None,
 "height": None,
 "dob": None,
-"feedback": None,
+#"feedback": None,
 "time": None,
 "choice": None,
 "gender": None,
 "slider_value": None,
-"notifications": None,
+#"notifications": None,
 "toggle_value": None
 }
 with st.form(key='user_info_form'):
